@@ -40,22 +40,18 @@
     text-decoration: none;
   }
   
-  .mainback{
-
-  }
-  
   .mainback__container{
     z-index: 1;
     position: fixed;
     top: 125px;
-    height: 400px;
+    height: 450px;
   }
   
   .main{
     position: relative;
     z-index: 30;
     background: white;
-    margin-top: 525px;
+    margin-top: 550px;
   }
   
 }

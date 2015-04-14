@@ -7,7 +7,7 @@ html {
 }
 
 
-
+/*Header Section*/
 .header{
   padding: 50px 30px 0;
 }
@@ -36,9 +36,12 @@ html {
   width: 100%;
 }
 
+
+/* Main Text Div*/
 .main{
   text-align: center;
   padding: 30px;
+  font-family: 'Raleway', sans-serif;
 }
 .main__header{
  font-size: 50px; 
@@ -52,6 +55,8 @@ html {
   font-size: 12px;
 }
 
+/*Circle links*/
+
 .circlelinks{
   margin: 0;
   padding: 0;
@@ -60,7 +65,7 @@ html {
 
 .circlelinks__item img{
   width: 100%;
-  max-width: 450px;
+  max-width: 450px; 
   border-radius: 60%;
   padding: 8px;
   border: 1px solid #7fa556;
@@ -69,7 +74,7 @@ html {
   
 }
 .circlelinks__item:hover img{
-  background: navy;
+  background: #3366CC;
   transition: all 0.4s ease;
 }
 
