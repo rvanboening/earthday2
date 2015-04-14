@@ -1,0 +1,87 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+.header{
+  padding: 50px 30px 0;
+}
+.header__ham {
+  float: right;
+}
+
+.header__menu{
+  display: none;
+}
+.header__logo {
+  float: left;
+  position: relative;
+  top: -35px;
+}
+
+.header__logo-img{
+  height: 100px; 
+}
+
+.header__search{
+  float: right;
+}
+
+.mainback {
+  width: 100%;
+}
+
+.main{
+  text-align: center;
+  padding: 30px;
+}
+.main__header{
+ font-size: 50px; 
+}
+
+.main__quote{
+  font-size: 30px;
+}
+
+.main_cite{
+  font-size: 12px;
+}
+
+.circlelinks{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.circlelinks__item img{
+  width: 100%;
+  max-width: 450px;
+  border-radius: 60%;
+  padding: 8px;
+  border: 1px solid #7fa556;
+  margin: 40px 0 10px;
+  transition: all 0.4s ease;
+  
+}
+.circlelinks__item:hover img{
+  background: navy;
+  transition: all 0.4s ease;
+}
+
+.circlelinks__item-text{
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  display: block;
+}
+
+.footer{
+  text-align: center;
+  background: #7fa556;
+  padding: 50px 0;
+}
