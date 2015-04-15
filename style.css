@@ -65,12 +65,13 @@ html {
 
 .circlelinks__item img{
   width: 100%;
-  max-width: 450px; 
+  max-width: 450px; .
   border-radius: 60%;
   padding: 8px;
   border: 1px solid #7fa556;
   margin: 40px 0 10px;
   transition: all 0.4s ease;
+  border-radius: 89%;
   
 }
 .circlelinks__item:hover img{
